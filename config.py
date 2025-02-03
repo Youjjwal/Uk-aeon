@@ -17,9 +17,9 @@ DEFAULT_UPLOAD = "rc"
 FILELION_API = ""
 STREAMWISH_API = ""
 EXTENSION_FILTER = ""
-INCOMPLETE_TASK_NOTIFIER = False
-YT_DLP_OPTIONS = "--no-check-certificate --format best"
-"
+
+INCOMPLETE_TASK_NOTIFIER = True
+YT_DLP_OPTIONS = "--extractor-args youtube:player_client=web --no-check-certificate"
 USE_SERVICE_ACCOUNTS = False
 NAME_SUBSTITUTE = ""
 FFMPEG_CMDS = {}
@@ -38,8 +38,8 @@ LEECH_FILENAME_CAPTION = ""
 
 # GDrive Tools
 GDRIVE_ID = "1nPhaGH2ZiTCFlgE1Vfl2uLKOY86VWm6l"
-IS_TEAM_DRIVE = False
-STOP_DUPLICATE = False
+IS_TEAM_DRIVE = True
+STOP_DUPLICATE = True
 INDEX_URL = ""
 
 # Rclone
@@ -65,14 +65,14 @@ MEDIA_GROUP = False
 USER_TRANSMISSION = False
 MIXED_LEECH = False
 LEECH_FILENAME_PREFIX = ""
-LEECH_DUMP_CHAT = ""
+LEECH_DUMP_CHAT = "-1002454308856"
 THUMBNAIL_LAYOUT = ""
 
 # qBittorrent/Aria2c
-TORRENT_TIMEOUT = 0
+TORRENT_TIMEOUT = 120
 BASE_URL = ""
 BASE_URL_PORT = 80
-WEB_PINCODE = False
+WEB_PINCODE = True
 
 # Queueing system
 QUEUE_ALL = 0
