@@ -5,14 +5,14 @@ TELEGRAM_API = "29334124"
 TELEGRAM_HASH = "46eea567fd25be2efbf82af17eefea93"
 
 # SEMI-REQUIRED, WE SUGGEST TO FILL IT FROM MONGODB
-DATABASE_URL = "https://ap-south-1.aws.data.mongodb-api.com/app/data-rtlxnng/endpoint/data/v1"
+DATABASE_URL = "mongodb+srv://Youjjwal:<db_password>@cluster0.hhhhr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # OPTIONAL CONFIG
 USER_SESSION_STRING = ""
 DOWNLOAD_DIR = "/usr/src/app/downloads/"
 CMD_SUFFIX = ""
 AUTHORIZED_CHATS = "-1002271931176"
-SUDO_USERS = "5344733200"
+SUDO_USERS = "5344733200 6330347502 7221327351 6933902807"
 DEFAULT_UPLOAD = "rc"
 FILELION_API = ""
 STREAMWISH_API = ""
